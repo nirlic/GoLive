@@ -1,0 +1,17 @@
+{
+  "username": "gopro",
+  "password": "changeme",
+
+  "_app": "GoLive",
+  "_version": "1.0.0",
+  "_author": "Nirlicnick",
+  "_comment": "Change the password above. The username can be anything you like.",
+
+  "ffmpegPath": "ffmpeg",
+  "cloudflaredPath": "cloudflared",
+  "rtmpPort": 1935,
+  "httpPort": 8080,
+  "streamKey": "gopro",
+  "hlsTime": 2,
+  "hlsListSize": 5
+}
