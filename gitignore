@@ -1,0 +1,25 @@
+# GoLive — .gitignore
+
+# HLS stream segments (generated at runtime)
+hls/
+
+# Recorded streams
+recordings/
+
+# Node modules (if any are ever added)
+node_modules/
+package-lock.json
+
+# Cloudflared binary (users download their own)
+cloudflared.exe
+
+# Windows cruft
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
