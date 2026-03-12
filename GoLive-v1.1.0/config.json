@@ -1,0 +1,23 @@
+{
+  "_app": "GoLive",
+  "_version": "1.1.0",
+  "_author": "Nirlicnick",
+  "_comment": "Edit settings here. Most changes need a server restart to take effect.",
+
+  "users": [
+    {
+      "username": "golive",
+      "password": "changeme"
+    }
+  ],
+
+  "ffmpegPath": "ffmpeg",
+  "cloudflaredPath": "cloudflared",
+  "rtmpPort": 1935,
+  "httpPort": 8080,
+  "streamKey": "golive",
+  "hlsTime": 2,
+  "hlsListSize": 5,
+  "record": false,
+  "linkExpiryHours": 0
+}
